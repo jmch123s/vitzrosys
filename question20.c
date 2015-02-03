@@ -1,6 +1,21 @@
+/**
+* @mainpage VITZRO_RND
+* @file	question20.c
+* @brief main source file.
+* @author 신입사원 장민철
+* @date 2015년 02월 03일
+*
+* VITZRO_RND 프로젝트 소스파일 
+*/
+
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+
+/**
+* @brief main 함수입니다.
+* @details 랜덤함수를 이용해서 1-100 사이에 임의의 숫자를 발생시키고 20번 안에 그 숫자를 맞히기.
+*/
 
 void main()
 {
