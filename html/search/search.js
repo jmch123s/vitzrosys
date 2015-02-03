@@ -7,9 +7,9 @@
 
 var indexSectionsWithContent =
 {
-  0: "mqrv",
-  1: "qrv",
-  2: "m",
+  0: "afimqrv",
+  1: "fqrv",
+  2: "aimr",
   3: "v"
 };
 
