@@ -7,10 +7,10 @@
 
 var indexSectionsWithContent =
 {
-  0: "afimqrv",
+  0: "afimpqrv",
   1: "fqrv",
   2: "aimr",
-  3: "v"
+  3: "pv"
 };
 
 var indexSectionNames =

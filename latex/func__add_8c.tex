@@ -1,4 +1,4 @@
-\hypertarget{func__add_8c}{\section{func\-\_\-add.\-c File Reference}
+\hypertarget{func__add_8c}{\section{func\-\_\-add.\-c 파일 참조}
 \label{func__add_8c}\index{func\-\_\-add.\-c@{func\-\_\-add.\-c}}
 }
 
@@ -7,7 +7,14 @@ main source file
 
 
 {\ttfamily \#include $<$stdio.\-h$>$}\\*
-\subsection*{Functions}
+func\-\_\-add.\-c에 대한 include 의존 그래프\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=144pt]{func__add_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{함수}
 \begin{DoxyCompactItemize}
 \item 
 int \hyperlink{func__add_8c_a7ef670896886a640355f60b3050e86a2}{Add} (int a, int b)
@@ -22,16 +29,14 @@ int \hyperlink{func__add_8c_a840291bc02cba5474a4cb46a9b9566fe}{main} (void)
 \begin{DoxyCompactList}\small\item\em main함수 입니다. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\subsection{Detailed Description}
-main source file \begin{DoxyAuthor}{Author}
-신입사원 장민철 
-\end{DoxyAuthor}
-\begin{DoxyDate}{Date}
-2015년 02월 03일
-\end{DoxyDate}
-V\-I\-T\-Z\-R\-O\-\_\-\-R\-N\-D 프로젝트 소스 파일 
+\subsection{상세한 설명}
+main source file 
 
-\subsection{Function Documentation}
+\hyperlink{func__add_8c_source}{func\-\_\-add.\-c} 파일에서 정의되었습니다.
+
+
+
+\subsection{함수 문서화}
 \hypertarget{func__add_8c_a7ef670896886a640355f60b3050e86a2}{\index{func\-\_\-add.\-c@{func\-\_\-add.\-c}!Add@{Add}}
 \index{Add@{Add}!func_add.c@{func\-\_\-add.\-c}}
 \subsubsection[{Add}]{\setlength{\rightskip}{0pt plus 5cm}int Add (
@@ -46,9 +51,31 @@ Add 함수의 원형 선언입니다.
 
 Add 함수의 정의입니다.
 
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{반환값}
 return 값은 result입니다. 
 \end{DoxyReturn}
+
+
+func\-\_\-add.\-c 파일의 96 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+97 \{
+98 \textcolor{keywordtype}{int} result = i + j;
+99 \textcolor{keywordflow}{return} result;
+100 \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=188pt]{func__add_8c_a7ef670896886a640355f60b3050e86a2_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{func__add_8c_a084dcce424121cf45a09bf1ef36dda6c}{\index{func\-\_\-add.\-c@{func\-\_\-add.\-c}!Input@{Input}}
 \index{Input@{Input}!func_add.c@{func\-\_\-add.\-c}}
 \subsubsection[{Input}]{\setlength{\rightskip}{0pt plus 5cm}int Input (
@@ -62,9 +89,32 @@ Input 함수의 원형 선언입니다.
 
 Input 함수의 정의입니다.
 
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{반환값}
 return 값은 input입니다. 
 \end{DoxyReturn}
+
+
+func\-\_\-add.\-c 파일의 107 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+108 \{
+109 \textcolor{keywordtype}{int} input;
+110 scanf(\textcolor{stringliteral}{"%d"}, &input);
+111 \textcolor{keywordflow}{return} input;
+112 \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{func__add_8c_a084dcce424121cf45a09bf1ef36dda6c_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{func__add_8c_a49cf116edddb344bc5b9aae42920b375}{\index{func\-\_\-add.\-c@{func\-\_\-add.\-c}!Intro@{Intro}}
 \index{Intro@{Intro}!func_add.c@{func\-\_\-add.\-c}}
 \subsubsection[{Intro}]{\setlength{\rightskip}{0pt plus 5cm}void Intro (
@@ -76,7 +126,29 @@ return 값은 input입니다.
 
 Intro 함수의 원형 선언입니다. 
 
-Intro 함수의 정의입니다. \hypertarget{func__add_8c_a840291bc02cba5474a4cb46a9b9566fe}{\index{func\-\_\-add.\-c@{func\-\_\-add.\-c}!main@{main}}
+Intro 함수의 정의입니다. 
+
+func\-\_\-add.\-c 파일의 129 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+130 \{
+131 printf(\textcolor{stringliteral}{"******START******"});
+132 printf(\textcolor{stringliteral}{"두 개의 정수 입력: "});
+133 \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{func__add_8c_a49cf116edddb344bc5b9aae42920b375_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{func__add_8c_a840291bc02cba5474a4cb46a9b9566fe}{\index{func\-\_\-add.\-c@{func\-\_\-add.\-c}!main@{main}}
 \index{main@{main}!func_add.c@{func\-\_\-add.\-c}}
 \subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
 \begin{DoxyParamCaption}
@@ -87,9 +159,39 @@ Intro 함수의 정의입니다. \hypertarget{func__add_8c_a840291bc02cba5474a4c
 
 main함수 입니다. 
 
-덧셈 프로그램 만들기 \begin{DoxyReturn}{Returns}
+덧셈 프로그램 만들기 \begin{DoxyReturn}{반환값}
 return 값은 0입니다. 
 \end{DoxyReturn}
+
+
+func\-\_\-add.\-c 파일의 77 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+78 \{
+79 \textcolor{keywordtype}{int} a, b;
+80 \textcolor{keywordtype}{int} output;
+81 \hyperlink{func__add_8c_a49cf116edddb344bc5b9aae42920b375}{Intro}();
+82 a=\hyperlink{func__add_8c_a084dcce424121cf45a09bf1ef36dda6c}{Input}();
+83 b=\hyperlink{func__add_8c_a084dcce424121cf45a09bf1ef36dda6c}{Input}();
+84 
+85 output = \hyperlink{func__add_8c_a7ef670896886a640355f60b3050e86a2}{Add}(a,b);
+86 \hyperlink{func__add_8c_aeac1cd6980f16590659871841b9388d4}{Result\_Print}(output);
+87 
+88 \textcolor{keywordflow}{return} 0;
+89 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{func__add_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{func__add_8c_aeac1cd6980f16590659871841b9388d4}{\index{func\-\_\-add.\-c@{func\-\_\-add.\-c}!Result\-\_\-\-Print@{Result\-\_\-\-Print}}
 \index{Result\-\_\-\-Print@{Result\-\_\-\-Print}!func_add.c@{func\-\_\-add.\-c}}
 \subsubsection[{Result\-\_\-\-Print}]{\setlength{\rightskip}{0pt plus 5cm}void Result\-\_\-\-Print (
@@ -103,6 +205,28 @@ Result\-\_\-\-Print 함수의 원형 선언입니다.
 
 Result\-\_\-\-Print 함수의 정의입니다.
 
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{반환값}
 return 값은 result입니다. 
 \end{DoxyReturn}
+
+
+func\-\_\-add.\-c 파일의 119 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+120 \{
+121 printf(\textcolor{stringliteral}{"덧셈의 대한 결과: %d \(\backslash\)n"}, val);
+122 printf(\textcolor{stringliteral}{"******END****** \(\backslash\)n"});
+123 \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{func__add_8c_aeac1cd6980f16590659871841b9388d4_icgraph}
+\end{center}
+\end{figure}
+
+

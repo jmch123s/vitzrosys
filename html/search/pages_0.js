@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['vitzro_5frnd',['VITZRO_RND',['../index.html',1,'']]],
-  ['vitzrosys',['vitzrosys',['../md_README.html',1,'']]]
+  ['project_20_3a_20vitzro_5frnd',['Project : vitzro_rnd',['../index.html',1,'']]]
 ];
